@@ -3,8 +3,8 @@ use crate::{
     error::*, parse_tree::*, semantic_analysis::TypeCheckedStorageReassignment, type_engine::*,
     Ident, NamespaceRef, NamespaceWrapper,
 };
-
-use sway_types::{join_spans, span::Span, Property};
+use fuels_types::Property;
+use sway_types::{join_spans, span::Span};
 
 use derivative::Derivative;
 use std::hash::{Hash, Hasher};

@@ -12,8 +12,8 @@ use crate::{
     type_engine::*,
     Ident, TypeParameter,
 };
-
-use sway_types::{join_spans, span::Span, Function, Property};
+use fuels_types::{Function, Property};
+use sway_types::{join_spans, span::Span};
 
 use sha2::{Digest, Sha256};
 

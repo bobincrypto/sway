@@ -8,8 +8,8 @@ mod engine;
 mod integer_bits;
 mod type_info;
 pub use engine::*;
+use fuels_types::Property;
 pub use integer_bits::*;
-use sway_types::Property;
 pub use type_info::*;
 
 /// A identifier to uniquely refer to our type terms

@@ -1145,13 +1145,13 @@ version = "0.10.3"
 dependencies = [
  "anyhow",
  "forc-util",
+ "fuels-types",
  "git2",
  "petgraph",
  "semver 1.0.6",
  "serde",
  "serde_ignored",
  "sway-core",
- "sway-types",
  "sway-utils",
  "toml",
  "url",
@@ -1350,6 +1350,14 @@ dependencies = [
  "sha3",
  "thiserror",
  "tracing",
+]
+
+[[package]]
+name = "fuels-types"
+version = "0.9.1"
+source = "git+https://github.com/fuellabs/fuels-rs?branch=master#5bd29e7774f1dba5b3ec8cd76379326d9ff72eca"
+dependencies = [
+ "serde",
 ]
 
 [[package]]
@@ -3206,6 +3214,7 @@ dependencies = [
  "fuel-pest",
  "fuel-pest_derive",
  "fuel-vm",
+ "fuels-types",
  "generational-arena",
  "hex",
  "itertools",
